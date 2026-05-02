@@ -1,5 +1,7 @@
 # 🚀 Vera Message Engine
 
+> **Live API Demo:** [https://veramessageengine.dssjcs01.workers.dev/](https://veramessageengine.dssjcs01.workers.dev/)
+
 A **deterministic AI decision engine** for merchant growth automation that generates **data-driven, action-oriented messages** based on business triggers and contextual insights.
 
 ---
