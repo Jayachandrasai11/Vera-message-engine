@@ -1,0 +1,3202 @@
+[
+  {
+    "context_id": "m_001",
+    "input": {
+      "context_id": "m_001",
+      "context": {
+        "merchant": {
+          "id": "m_001",
+          "name": "FitZone",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 172
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "FitZone, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_001_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_002",
+    "input": {
+      "context_id": "m_002",
+      "context": {
+        "merchant": {
+          "id": "m_002",
+          "name": "PowerHouse Gym",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 194
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_002_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_003",
+    "input": {
+      "context_id": "m_003",
+      "context": {
+        "merchant": {
+          "id": "m_003",
+          "name": "Elite Fitness",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 107
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_003_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_004",
+    "input": {
+      "context_id": "m_004",
+      "context": {
+        "merchant": {
+          "id": "m_004",
+          "name": "CrossFit Center",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 112
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_004_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_005",
+    "input": {
+      "context_id": "m_005",
+      "context": {
+        "merchant": {
+          "id": "m_005",
+          "name": "CrossFit Center",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 50
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_005_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_006",
+    "input": {
+      "context_id": "m_006",
+      "context": {
+        "merchant": {
+          "id": "m_006",
+          "name": "CrossFit Center",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 70
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_006_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_007",
+    "input": {
+      "context_id": "m_007",
+      "context": {
+        "merchant": {
+          "id": "m_007",
+          "name": "CrossFit Center",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 116
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_007_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_008",
+    "input": {
+      "context_id": "m_008",
+      "context": {
+        "merchant": {
+          "id": "m_008",
+          "name": "CrossFit Center",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 173
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_008_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_009",
+    "input": {
+      "context_id": "m_009",
+      "context": {
+        "merchant": {
+          "id": "m_009",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 19
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_009_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_010",
+    "input": {
+      "context_id": "m_010",
+      "context": {
+        "merchant": {
+          "id": "m_010",
+          "name": "FitZone",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 70
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "FitZone, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_010_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_011",
+    "input": {
+      "context_id": "m_011",
+      "context": {
+        "merchant": {
+          "id": "m_011",
+          "name": "Iron Gym",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 191
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_011_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_012",
+    "input": {
+      "context_id": "m_012",
+      "context": {
+        "merchant": {
+          "id": "m_012",
+          "name": "FitZone",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 68
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "FitZone, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_012_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_013",
+    "input": {
+      "context_id": "m_013",
+      "context": {
+        "merchant": {
+          "id": "m_013",
+          "name": "CrossFit Center",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 196
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_013_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_014",
+    "input": {
+      "context_id": "m_014",
+      "context": {
+        "merchant": {
+          "id": "m_014",
+          "name": "Iron Gym",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 153
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_014_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_015",
+    "input": {
+      "context_id": "m_015",
+      "context": {
+        "merchant": {
+          "id": "m_015",
+          "name": "Iron Gym",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 88
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_015_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_016",
+    "input": {
+      "context_id": "m_016",
+      "context": {
+        "merchant": {
+          "id": "m_016",
+          "name": "PowerHouse Gym",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 183
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_016_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_017",
+    "input": {
+      "context_id": "m_017",
+      "context": {
+        "merchant": {
+          "id": "m_017",
+          "name": "Elite Fitness",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 85
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_017_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_018",
+    "input": {
+      "context_id": "m_018",
+      "context": {
+        "merchant": {
+          "id": "m_018",
+          "name": "FitZone",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 53
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "FitZone, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_018_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_019",
+    "input": {
+      "context_id": "m_019",
+      "context": {
+        "merchant": {
+          "id": "m_019",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 60
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_019_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_020",
+    "input": {
+      "context_id": "m_020",
+      "context": {
+        "merchant": {
+          "id": "m_020",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 184
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_020_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_021",
+    "input": {
+      "context_id": "m_021",
+      "context": {
+        "merchant": {
+          "id": "m_021",
+          "name": "CrossFit Center",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 23
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_021_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_022",
+    "input": {
+      "context_id": "m_022",
+      "context": {
+        "merchant": {
+          "id": "m_022",
+          "name": "CrossFit Center",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 81
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_022_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_023",
+    "input": {
+      "context_id": "m_023",
+      "context": {
+        "merchant": {
+          "id": "m_023",
+          "name": "FitZone",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 96
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "FitZone, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_023_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_024",
+    "input": {
+      "context_id": "m_024",
+      "context": {
+        "merchant": {
+          "id": "m_024",
+          "name": "FitZone",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 115
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "FitZone, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_024_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_025",
+    "input": {
+      "context_id": "m_025",
+      "context": {
+        "merchant": {
+          "id": "m_025",
+          "name": "Elite Fitness",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 81
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_025_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_026",
+    "input": {
+      "context_id": "m_026",
+      "context": {
+        "merchant": {
+          "id": "m_026",
+          "name": "FitZone",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 162
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "FitZone, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_026_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_027",
+    "input": {
+      "context_id": "m_027",
+      "context": {
+        "merchant": {
+          "id": "m_027",
+          "name": "CrossFit Center",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 29
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_027_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_028",
+    "input": {
+      "context_id": "m_028",
+      "context": {
+        "merchant": {
+          "id": "m_028",
+          "name": "CrossFit Center",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 97
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_028_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_029",
+    "input": {
+      "context_id": "m_029",
+      "context": {
+        "merchant": {
+          "id": "m_029",
+          "name": "FitZone",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 107
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "FitZone, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_029_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_030",
+    "input": {
+      "context_id": "m_030",
+      "context": {
+        "merchant": {
+          "id": "m_030",
+          "name": "Elite Fitness",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 183
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_030_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_031",
+    "input": {
+      "context_id": "m_031",
+      "context": {
+        "merchant": {
+          "id": "m_031",
+          "name": "PowerHouse Gym",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 160
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_031_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_032",
+    "input": {
+      "context_id": "m_032",
+      "context": {
+        "merchant": {
+          "id": "m_032",
+          "name": "CrossFit Center",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 30
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_032_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_033",
+    "input": {
+      "context_id": "m_033",
+      "context": {
+        "merchant": {
+          "id": "m_033",
+          "name": "CrossFit Center",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 181
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_033_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_034",
+    "input": {
+      "context_id": "m_034",
+      "context": {
+        "merchant": {
+          "id": "m_034",
+          "name": "Elite Fitness",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 12
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_034_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_035",
+    "input": {
+      "context_id": "m_035",
+      "context": {
+        "merchant": {
+          "id": "m_035",
+          "name": "Iron Gym",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 143
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_035_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_036",
+    "input": {
+      "context_id": "m_036",
+      "context": {
+        "merchant": {
+          "id": "m_036",
+          "name": "Elite Fitness",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 93
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_036_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_037",
+    "input": {
+      "context_id": "m_037",
+      "context": {
+        "merchant": {
+          "id": "m_037",
+          "name": "FitZone",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 45
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "FitZone, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_037_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_038",
+    "input": {
+      "context_id": "m_038",
+      "context": {
+        "merchant": {
+          "id": "m_038",
+          "name": "Elite Fitness",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 74
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_038_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_039",
+    "input": {
+      "context_id": "m_039",
+      "context": {
+        "merchant": {
+          "id": "m_039",
+          "name": "PowerHouse Gym",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 23
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_039_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_040",
+    "input": {
+      "context_id": "m_040",
+      "context": {
+        "merchant": {
+          "id": "m_040",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 75
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 10,
+        "improve_reviews": 10,
+        "add_photos": 11,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_040_push_offer_compliance",
+      "rationale": "compliance + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_041",
+    "input": {
+      "context_id": "m_041",
+      "context": {
+        "merchant": {
+          "id": "m_041",
+          "name": "Iron Gym",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 33
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Maintaining a 4.2+ rating helps sustain customer trust and bookings. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_041_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_042",
+    "input": {
+      "context_id": "m_042",
+      "context": {
+        "merchant": {
+          "id": "m_042",
+          "name": "PowerHouse Gym",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 98
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Maintaining a 4.2+ rating helps sustain customer trust and bookings. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_042_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_043",
+    "input": {
+      "context_id": "m_043",
+      "context": {
+        "merchant": {
+          "id": "m_043",
+          "name": "Elite Fitness",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 116
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Maintaining a 4.2+ rating helps sustain customer trust and bookings. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_043_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_044",
+    "input": {
+      "context_id": "m_044",
+      "context": {
+        "merchant": {
+          "id": "m_044",
+          "name": "Iron Gym",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 35
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Maintaining a 4.2+ rating helps sustain customer trust and bookings. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_044_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_045",
+    "input": {
+      "context_id": "m_045",
+      "context": {
+        "merchant": {
+          "id": "m_045",
+          "name": "CrossFit Center",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 39
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Each 0.5 rating increase can lift visibility by ~30\u201340% in local search. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_045_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_046",
+    "input": {
+      "context_id": "m_046",
+      "context": {
+        "merchant": {
+          "id": "m_046",
+          "name": "CrossFit Center",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 148
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Each 0.5 rating increase can lift visibility by ~30\u201340% in local search. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_046_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_047",
+    "input": {
+      "context_id": "m_047",
+      "context": {
+        "merchant": {
+          "id": "m_047",
+          "name": "CrossFit Center",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 27
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Each 0.5 rating increase can lift visibility by ~30\u201340% in local search. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_047_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_048",
+    "input": {
+      "context_id": "m_048",
+      "context": {
+        "merchant": {
+          "id": "m_048",
+          "name": "Iron Gym",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 54
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Each 0.5 rating increase can lift visibility by ~30\u201340% in local search. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_048_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_049",
+    "input": {
+      "context_id": "m_049",
+      "context": {
+        "merchant": {
+          "id": "m_049",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 73
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Each 0.5 rating increase can lift visibility by ~30\u201340% in local search. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_049_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_050",
+    "input": {
+      "context_id": "m_050",
+      "context": {
+        "merchant": {
+          "id": "m_050",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 30
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "scores": {
+        "push_offer": 12,
+        "run_campaign": 12,
+        "improve_reviews": 14,
+        "add_photos": 13,
+        "retention_push": 8
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Each 0.5 rating increase can lift visibility by ~30\u201340% in local search. Request reviews from recent customers to improve ratings. Market research insights available.",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_050_improve_reviews_research",
+      "rationale": "research + business timing -> improve_reviews enhances visibility"
+    }
+  },
+  {
+    "context_id": "m_051",
+    "input": {
+      "context_id": "m_051",
+      "context": {
+        "merchant": {
+          "id": "m_051",
+          "name": "Dr. Smith Dental",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 150
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_051_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_052",
+    "input": {
+      "context_id": "m_052",
+      "context": {
+        "merchant": {
+          "id": "m_052",
+          "name": "Bright Smile Clinic",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 186
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_052_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_053",
+    "input": {
+      "context_id": "m_053",
+      "context": {
+        "merchant": {
+          "id": "m_053",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 18
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_053_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_054",
+    "input": {
+      "context_id": "m_054",
+      "context": {
+        "merchant": {
+          "id": "m_054",
+          "name": "Bright Smile Clinic",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 43
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_054_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_055",
+    "input": {
+      "context_id": "m_055",
+      "context": {
+        "merchant": {
+          "id": "m_055",
+          "name": "Family Dental Care",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 81
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_055_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_056",
+    "input": {
+      "context_id": "m_056",
+      "context": {
+        "merchant": {
+          "id": "m_056",
+          "name": "Smile Studio",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 75
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_056_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_057",
+    "input": {
+      "context_id": "m_057",
+      "context": {
+        "merchant": {
+          "id": "m_057",
+          "name": "Family Dental Care",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 26
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_057_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_058",
+    "input": {
+      "context_id": "m_058",
+      "context": {
+        "merchant": {
+          "id": "m_058",
+          "name": "Tooth Fairy Dental",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 182
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_058_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_059",
+    "input": {
+      "context_id": "m_059",
+      "context": {
+        "merchant": {
+          "id": "m_059",
+          "name": "Bright Smile Clinic",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 156
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_059_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_060",
+    "input": {
+      "context_id": "m_060",
+      "context": {
+        "merchant": {
+          "id": "m_060",
+          "name": "Bright Smile Clinic",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 29
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Demand is spiking based on searches.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_060_push_offer_search_spike",
+      "rationale": "search spike + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_061",
+    "input": {
+      "context_id": "m_061",
+      "context": {
+        "merchant": {
+          "id": "m_061",
+          "name": "Family Dental Care",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 23
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_061_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_062",
+    "input": {
+      "context_id": "m_062",
+      "context": {
+        "merchant": {
+          "id": "m_062",
+          "name": "Family Dental Care",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 83
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_062_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_063",
+    "input": {
+      "context_id": "m_063",
+      "context": {
+        "merchant": {
+          "id": "m_063",
+          "name": "Smile Studio",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 137
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_063_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_064",
+    "input": {
+      "context_id": "m_064",
+      "context": {
+        "merchant": {
+          "id": "m_064",
+          "name": "Dr. Smith Dental",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 58
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_064_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_065",
+    "input": {
+      "context_id": "m_065",
+      "context": {
+        "merchant": {
+          "id": "m_065",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 64
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_065_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_066",
+    "input": {
+      "context_id": "m_066",
+      "context": {
+        "merchant": {
+          "id": "m_066",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 138
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_066_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_067",
+    "input": {
+      "context_id": "m_067",
+      "context": {
+        "merchant": {
+          "id": "m_067",
+          "name": "Dr. Smith Dental",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 28
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_067_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_068",
+    "input": {
+      "context_id": "m_068",
+      "context": {
+        "merchant": {
+          "id": "m_068",
+          "name": "Smile Studio",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 191
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_068_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_069",
+    "input": {
+      "context_id": "m_069",
+      "context": {
+        "merchant": {
+          "id": "m_069",
+          "name": "Family Dental Care",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 84
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_069_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_070",
+    "input": {
+      "context_id": "m_070",
+      "context": {
+        "merchant": {
+          "id": "m_070",
+          "name": "Family Dental Care",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 123
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 12,
+        "improve_reviews": 10,
+        "add_photos": 9,
+        "retention_push": 10
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Current footfall is below expected levels.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_070_push_offer_footfall_drop",
+      "rationale": "footfall drop + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_071",
+    "input": {
+      "context_id": "m_071",
+      "context": {
+        "merchant": {
+          "id": "m_071",
+          "name": "Smile Studio",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 185
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_071_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_072",
+    "input": {
+      "context_id": "m_072",
+      "context": {
+        "merchant": {
+          "id": "m_072",
+          "name": "Smile Studio",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 81
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_072_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_073",
+    "input": {
+      "context_id": "m_073",
+      "context": {
+        "merchant": {
+          "id": "m_073",
+          "name": "Bright Smile Clinic",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 170
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_073_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_074",
+    "input": {
+      "context_id": "m_074",
+      "context": {
+        "merchant": {
+          "id": "m_074",
+          "name": "Family Dental Care",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 151
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_074_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_075",
+    "input": {
+      "context_id": "m_075",
+      "context": {
+        "merchant": {
+          "id": "m_075",
+          "name": "Bright Smile Clinic",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 167
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_075_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_076",
+    "input": {
+      "context_id": "m_076",
+      "context": {
+        "merchant": {
+          "id": "m_076",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 187
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_076_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_077",
+    "input": {
+      "context_id": "m_077",
+      "context": {
+        "merchant": {
+          "id": "m_077",
+          "name": "Tooth Fairy Dental",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 136
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_077_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_078",
+    "input": {
+      "context_id": "m_078",
+      "context": {
+        "merchant": {
+          "id": "m_078",
+          "name": "Tooth Fairy Dental",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 58
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_078_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_079",
+    "input": {
+      "context_id": "m_079",
+      "context": {
+        "merchant": {
+          "id": "m_079",
+          "name": "Smile Studio",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 125
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Around this time, businesses without active offers often miss ~20\u201325% of high-intent customers. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_079_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  },
+  {
+    "context_id": "m_080",
+    "input": {
+      "context_id": "m_080",
+      "context": {
+        "merchant": {
+          "id": "m_080",
+          "name": "Dr. Smith Dental",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 94
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "scores": {
+        "push_offer": 16,
+        "run_campaign": 14,
+        "improve_reviews": 8,
+        "add_photos": 11,
+        "retention_push": 12
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Active offers can help capture ~20\u201325% more walk-ins during demand spikes. Create a limited-time offer to attract more customers. Festive season presents promotional opportunity.",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_080_push_offer_festival",
+      "rationale": "festival + business timing -> push_offer drives engagement"
+    }
+  }
+]

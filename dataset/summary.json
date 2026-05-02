@@ -1,0 +1,50 @@
+{
+  "avg_score": 11.2,
+  "min_score": 9,
+  "max_score": 13,
+  "total_cases": 80,
+  "low_cases": [
+    {
+      "id": "m_045",
+      "score": 9
+    },
+    {
+      "id": "m_046",
+      "score": 9
+    },
+    {
+      "id": "m_047",
+      "score": 9
+    },
+    {
+      "id": "m_048",
+      "score": 9
+    },
+    {
+      "id": "m_049",
+      "score": 9
+    }
+  ],
+  "top_cases": [
+    {
+      "id": "m_011",
+      "score": 13
+    },
+    {
+      "id": "m_014",
+      "score": 13
+    },
+    {
+      "id": "m_018",
+      "score": 13
+    },
+    {
+      "id": "m_020",
+      "score": 13
+    },
+    {
+      "id": "m_001",
+      "score": 12
+    }
+  ]
+}

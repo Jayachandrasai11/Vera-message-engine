@@ -1,0 +1,3922 @@
+[
+  {
+    "context_id": "m_001",
+    "input": {
+      "context_id": "m_001",
+      "context": {
+        "merchant": {
+          "id": "m_001",
+          "name": "CrossFit Center",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 133
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 18,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_001*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_002",
+    "input": {
+      "context_id": "m_002",
+      "context": {
+        "merchant": {
+          "id": "m_002",
+          "name": "Elite Fitness",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 126
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_002*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_003",
+    "input": {
+      "context_id": "m_003",
+      "context": {
+        "merchant": {
+          "id": "m_003",
+          "name": "Iron Gym",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 95
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 16,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_003*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_004",
+    "input": {
+      "context_id": "m_004",
+      "context": {
+        "merchant": {
+          "id": "m_004",
+          "name": "CrossFit Center",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 34
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 16,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_004*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_005",
+    "input": {
+      "context_id": "m_005",
+      "context": {
+        "merchant": {
+          "id": "m_005",
+          "name": "PowerHouse Gym",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 162
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_005*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_006",
+    "input": {
+      "context_id": "m_006",
+      "context": {
+        "merchant": {
+          "id": "m_006",
+          "name": "Iron Gym",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 124
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_006*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_007",
+    "input": {
+      "context_id": "m_007",
+      "context": {
+        "merchant": {
+          "id": "m_007",
+          "name": "Iron Gym",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 188
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_007*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_008",
+    "input": {
+      "context_id": "m_008",
+      "context": {
+        "merchant": {
+          "id": "m_008",
+          "name": "CrossFit Center",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 127
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_008*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_009",
+    "input": {
+      "context_id": "m_009",
+      "context": {
+        "merchant": {
+          "id": "m_009",
+          "name": "Elite Fitness",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 14
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 16,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_009*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_010",
+    "input": {
+      "context_id": "m_010",
+      "context": {
+        "merchant": {
+          "id": "m_010",
+          "name": "Iron Gym",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 152
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_010*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_011",
+    "input": {
+      "context_id": "m_011",
+      "context": {
+        "merchant": {
+          "id": "m_011",
+          "name": "PowerHouse Gym",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 73
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 20,
+        "retention_push": 19,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_011*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 4,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 13
+    }
+  },
+  {
+    "context_id": "m_012",
+    "input": {
+      "context_id": "m_012",
+      "context": {
+        "merchant": {
+          "id": "m_012",
+          "name": "CrossFit Center",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 13
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 20,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 20,
+        "push_offer": 19,
+        "retention_push": 19,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_012*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_013",
+    "input": {
+      "context_id": "m_013",
+      "context": {
+        "merchant": {
+          "id": "m_013",
+          "name": "CrossFit Center",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 122
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 22,
+        "retention_push": 19,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_013*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_014",
+    "input": {
+      "context_id": "m_014",
+      "context": {
+        "merchant": {
+          "id": "m_014",
+          "name": "Iron Gym",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 17
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 20,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 20,
+        "push_offer": 19,
+        "retention_push": 19,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_014*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 4,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 13
+    }
+  },
+  {
+    "context_id": "m_015",
+    "input": {
+      "context_id": "m_015",
+      "context": {
+        "merchant": {
+          "id": "m_015",
+          "name": "CrossFit Center",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 156
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 22,
+        "retention_push": 19,
+        "improve_reviews": 15,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_015*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_016",
+    "input": {
+      "context_id": "m_016",
+      "context": {
+        "merchant": {
+          "id": "m_016",
+          "name": "CrossFit Center",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 121
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 22,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 22,
+        "push_offer": 19,
+        "retention_push": 19,
+        "improve_reviews": 15,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_016*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_017",
+    "input": {
+      "context_id": "m_017",
+      "context": {
+        "merchant": {
+          "id": "m_017",
+          "name": "FitZone",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 77
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 20,
+        "retention_push": 19,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "FitZone, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_017*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_018",
+    "input": {
+      "context_id": "m_018",
+      "context": {
+        "merchant": {
+          "id": "m_018",
+          "name": "Iron Gym",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 103
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 22,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 22,
+        "push_offer": 19,
+        "retention_push": 19,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_018*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 4,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 13
+    }
+  },
+  {
+    "context_id": "m_019",
+    "input": {
+      "context_id": "m_019",
+      "context": {
+        "merchant": {
+          "id": "m_019",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 152
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 22,
+        "retention_push": 19,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_019*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_020",
+    "input": {
+      "context_id": "m_020",
+      "context": {
+        "merchant": {
+          "id": "m_020",
+          "name": "PowerHouse Gym",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 131
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 22,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 22,
+        "push_offer": 19,
+        "retention_push": 19,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_020*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 4,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 13
+    }
+  },
+  {
+    "context_id": "m_021",
+    "input": {
+      "context_id": "m_021",
+      "context": {
+        "merchant": {
+          "id": "m_021",
+          "name": "Elite Fitness",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 42
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 18,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_021*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_022",
+    "input": {
+      "context_id": "m_022",
+      "context": {
+        "merchant": {
+          "id": "m_022",
+          "name": "CrossFit Center",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 164
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 20,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_022*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_023",
+    "input": {
+      "context_id": "m_023",
+      "context": {
+        "merchant": {
+          "id": "m_023",
+          "name": "FitZone",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 39
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 18,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "FitZone, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_023*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_024",
+    "input": {
+      "context_id": "m_024",
+      "context": {
+        "merchant": {
+          "id": "m_024",
+          "name": "PowerHouse Gym",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 174
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 20,
+        "add_photos": 13,
+        "retention_push": 13,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_024*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_025",
+    "input": {
+      "context_id": "m_025",
+      "context": {
+        "merchant": {
+          "id": "m_025",
+          "name": "PowerHouse Gym",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 99
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_025*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_026",
+    "input": {
+      "context_id": "m_026",
+      "context": {
+        "merchant": {
+          "id": "m_026",
+          "name": "FitZone",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 156
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "FitZone, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_026*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_027",
+    "input": {
+      "context_id": "m_027",
+      "context": {
+        "merchant": {
+          "id": "m_027",
+          "name": "PowerHouse Gym",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 170
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_027*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_028",
+    "input": {
+      "context_id": "m_028",
+      "context": {
+        "merchant": {
+          "id": "m_028",
+          "name": "CrossFit Center",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 68
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_028*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_029",
+    "input": {
+      "context_id": "m_029",
+      "context": {
+        "merchant": {
+          "id": "m_029",
+          "name": "PowerHouse Gym",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 148
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_029*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_030",
+    "input": {
+      "context_id": "m_030",
+      "context": {
+        "merchant": {
+          "id": "m_030",
+          "name": "CrossFit Center",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 18
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 13
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_030*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_031",
+    "input": {
+      "context_id": "m_031",
+      "context": {
+        "merchant": {
+          "id": "m_031",
+          "name": "Iron Gym",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 159
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 20,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 20,
+        "add_photos": 15,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 12
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_031*improve_reviews*compliance",
+      "rationale": "compliance - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_032",
+    "input": {
+      "context_id": "m_032",
+      "context": {
+        "merchant": {
+          "id": "m_032",
+          "name": "PowerHouse Gym",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 157
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 20,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 20,
+        "add_photos": 15,
+        "retention_push": 13,
+        "run_campaign": 12,
+        "push_offer": 11
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, Improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_032*improve_reviews*compliance",
+      "rationale": "compliance - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_033",
+    "input": {
+      "context_id": "m_033",
+      "context": {
+        "merchant": {
+          "id": "m_033",
+          "name": "Iron Gym",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 25
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 20,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 20,
+        "add_photos": 15,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_033*improve_reviews*compliance",
+      "rationale": "compliance - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_034",
+    "input": {
+      "context_id": "m_034",
+      "context": {
+        "merchant": {
+          "id": "m_034",
+          "name": "Iron Gym",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 43
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 20,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 20,
+        "add_photos": 15,
+        "retention_push": 13,
+        "push_offer": 11,
+        "run_campaign": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_034*improve_reviews*compliance",
+      "rationale": "compliance - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_035",
+    "input": {
+      "context_id": "m_035",
+      "context": {
+        "merchant": {
+          "id": "m_035",
+          "name": "Iron Gym",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 122
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 25,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 25,
+        "add_photos": 15,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 12
+      }
+    },
+    "message": {
+      "message": "Iron Gym, with rating 4.0 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_035*improve_reviews*compliance",
+      "rationale": "compliance + rating 4.0 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_036",
+    "input": {
+      "context_id": "m_036",
+      "context": {
+        "merchant": {
+          "id": "m_036",
+          "name": "FitZone",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 111
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 25,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 25,
+        "add_photos": 15,
+        "retention_push": 13,
+        "run_campaign": 12,
+        "push_offer": 11
+      }
+    },
+    "message": {
+      "message": "FitZone, with rating 4.0 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_036*improve_reviews*compliance",
+      "rationale": "compliance + rating 4.0 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_037",
+    "input": {
+      "context_id": "m_037",
+      "context": {
+        "merchant": {
+          "id": "m_037",
+          "name": "FitZone",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 132
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 25,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 25,
+        "add_photos": 17,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 12
+      }
+    },
+    "message": {
+      "message": "FitZone, with rating 3.8 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_037*improve_reviews*compliance",
+      "rationale": "compliance + rating 3.8 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_038",
+    "input": {
+      "context_id": "m_038",
+      "context": {
+        "merchant": {
+          "id": "m_038",
+          "name": "Iron Gym",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 55
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 25,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 25,
+        "add_photos": 17,
+        "retention_push": 13,
+        "push_offer": 11,
+        "run_campaign": 10
+      }
+    },
+    "message": {
+      "message": "Iron Gym, with rating 3.8 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_038*improve_reviews*compliance",
+      "rationale": "compliance + rating 3.8 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_039",
+    "input": {
+      "context_id": "m_039",
+      "context": {
+        "merchant": {
+          "id": "m_039",
+          "name": "Elite Fitness",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 60
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 25,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 25,
+        "add_photos": 17,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, with rating 3.5 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_039*improve_reviews*compliance",
+      "rationale": "compliance + rating 3.5 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_040",
+    "input": {
+      "context_id": "m_040",
+      "context": {
+        "merchant": {
+          "id": "m_040",
+          "name": "FitZone",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "compliance",
+        "count": 141
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 25,
+      "reason": "compliance trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 25,
+        "add_photos": 17,
+        "retention_push": 13,
+        "run_campaign": 12,
+        "push_offer": 11
+      }
+    },
+    "message": {
+      "message": "FitZone, with rating 3.5 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_040*improve_reviews*compliance",
+      "rationale": "compliance + rating 3.5 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_041",
+    "input": {
+      "context_id": "m_041",
+      "context": {
+        "merchant": {
+          "id": "m_041",
+          "name": "FitZone",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 38
+      }
+    },
+    "decision": {
+      "selected_action": "add_photos",
+      "score": 19,
+      "reason": "research trigger + merchant state - add_photos maximizes business impact",
+      "all_scores": {
+        "add_photos": 19,
+        "improve_reviews": 16,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 10
+      }
+    },
+    "message": {
+      "message": "FitZone, Adding photos to your profile helps improve visibility and customer trust. Want me to help?",
+      "cta": "Add photos?",
+      "send_as": "Vera",
+      "suppression_key": "m_041*add_photos*research",
+      "rationale": "research - add_photos to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_042",
+    "input": {
+      "context_id": "m_042",
+      "context": {
+        "merchant": {
+          "id": "m_042",
+          "name": "Elite Fitness",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 46
+      }
+    },
+    "decision": {
+      "selected_action": "add_photos",
+      "score": 19,
+      "reason": "research trigger + merchant state - add_photos maximizes business impact",
+      "all_scores": {
+        "add_photos": 19,
+        "improve_reviews": 16,
+        "retention_push": 13,
+        "push_offer": 11,
+        "run_campaign": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, Adding photos to your profile helps improve visibility and customer trust. Want me to help?",
+      "cta": "Add photos?",
+      "send_as": "Vera",
+      "suppression_key": "m_042*add_photos*research",
+      "rationale": "research - add_photos to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_043",
+    "input": {
+      "context_id": "m_043",
+      "context": {
+        "merchant": {
+          "id": "m_043",
+          "name": "Iron Gym",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 121
+      }
+    },
+    "decision": {
+      "selected_action": "add_photos",
+      "score": 19,
+      "reason": "research trigger + merchant state - add_photos maximizes business impact",
+      "all_scores": {
+        "add_photos": 19,
+        "improve_reviews": 16,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 12
+      }
+    },
+    "message": {
+      "message": "Iron Gym, Adding photos to your profile helps improve visibility and customer trust. Want me to help?",
+      "cta": "Add photos?",
+      "send_as": "Vera",
+      "suppression_key": "m_043*add_photos*research",
+      "rationale": "research - add_photos to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_044",
+    "input": {
+      "context_id": "m_044",
+      "context": {
+        "merchant": {
+          "id": "m_044",
+          "name": "CrossFit Center",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 121
+      }
+    },
+    "decision": {
+      "selected_action": "add_photos",
+      "score": 19,
+      "reason": "research trigger + merchant state - add_photos maximizes business impact",
+      "all_scores": {
+        "add_photos": 19,
+        "improve_reviews": 16,
+        "retention_push": 13,
+        "run_campaign": 12,
+        "push_offer": 11
+      }
+    },
+    "message": {
+      "message": "CrossFit Center, Adding photos to your profile helps improve visibility and customer trust. Want me to help?",
+      "cta": "Add photos?",
+      "send_as": "Vera",
+      "suppression_key": "m_044*add_photos*research",
+      "rationale": "research - add_photos to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_045",
+    "input": {
+      "context_id": "m_045",
+      "context": {
+        "merchant": {
+          "id": "m_045",
+          "name": "FitZone",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 136
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 21,
+      "reason": "research trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 21,
+        "add_photos": 19,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 12
+      }
+    },
+    "message": {
+      "message": "FitZone, with rating 4.0 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_045*improve_reviews*research",
+      "rationale": "research + rating 4.0 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 0,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 9
+    }
+  },
+  {
+    "context_id": "m_046",
+    "input": {
+      "context_id": "m_046",
+      "context": {
+        "merchant": {
+          "id": "m_046",
+          "name": "Iron Gym",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 144
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 21,
+      "reason": "research trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 21,
+        "add_photos": 19,
+        "retention_push": 13,
+        "run_campaign": 12,
+        "push_offer": 11
+      }
+    },
+    "message": {
+      "message": "Iron Gym, with rating 4.0 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_046*improve_reviews*research",
+      "rationale": "research + rating 4.0 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 0,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 9
+    }
+  },
+  {
+    "context_id": "m_047",
+    "input": {
+      "context_id": "m_047",
+      "context": {
+        "merchant": {
+          "id": "m_047",
+          "name": "Iron Gym",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 106
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 21,
+      "reason": "research trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 21,
+        "add_photos": 21,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 12
+      }
+    },
+    "message": {
+      "message": "Iron Gym, with rating 3.8 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_047*improve_reviews*research",
+      "rationale": "research + rating 3.8 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 0,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 9
+    }
+  },
+  {
+    "context_id": "m_048",
+    "input": {
+      "context_id": "m_048",
+      "context": {
+        "merchant": {
+          "id": "m_048",
+          "name": "FitZone",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 126
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 21,
+      "reason": "research trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 21,
+        "add_photos": 21,
+        "retention_push": 13,
+        "run_campaign": 12,
+        "push_offer": 11
+      }
+    },
+    "message": {
+      "message": "FitZone, with rating 3.8 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_048*improve_reviews*research",
+      "rationale": "research + rating 3.8 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 0,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 9
+    }
+  },
+  {
+    "context_id": "m_049",
+    "input": {
+      "context_id": "m_049",
+      "context": {
+        "merchant": {
+          "id": "m_049",
+          "name": "Elite Fitness",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 93
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 21,
+      "reason": "research trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 21,
+        "add_photos": 21,
+        "push_offer": 14,
+        "retention_push": 13,
+        "run_campaign": 10
+      }
+    },
+    "message": {
+      "message": "Elite Fitness, with rating 3.5 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_049*improve_reviews*research",
+      "rationale": "research + rating 3.5 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 0,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 9
+    }
+  },
+  {
+    "context_id": "m_050",
+    "input": {
+      "context_id": "m_050",
+      "context": {
+        "merchant": {
+          "id": "m_050",
+          "name": "PowerHouse Gym",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "gym"
+        }
+      },
+      "trigger": {
+        "type": "research",
+        "count": 185
+      }
+    },
+    "decision": {
+      "selected_action": "improve_reviews",
+      "score": 21,
+      "reason": "research trigger + merchant state - improve_reviews maximizes business impact",
+      "all_scores": {
+        "improve_reviews": 21,
+        "add_photos": 21,
+        "retention_push": 13,
+        "run_campaign": 12,
+        "push_offer": 11
+      }
+    },
+    "message": {
+      "message": "PowerHouse Gym, with rating 3.5 below 4.2 benchmark, improving customer ratings can significantly increase trust and conversions. Want me to help?",
+      "cta": "Improve ratings?",
+      "send_as": "Vera",
+      "suppression_key": "m_050*improve_reviews*research",
+      "rationale": "research + rating 3.5 - improve_reviews to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 0,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 9
+    }
+  },
+  {
+    "context_id": "m_051",
+    "input": {
+      "context_id": "m_051",
+      "context": {
+        "merchant": {
+          "id": "m_051",
+          "name": "Bright Smile Clinic",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 193
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 18,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_051*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_052",
+    "input": {
+      "context_id": "m_052",
+      "context": {
+        "merchant": {
+          "id": "m_052",
+          "name": "Bright Smile Clinic",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 70
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 16,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_052*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_053",
+    "input": {
+      "context_id": "m_053",
+      "context": {
+        "merchant": {
+          "id": "m_053",
+          "name": "Smile Studio",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 19
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 16,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_053*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_054",
+    "input": {
+      "context_id": "m_054",
+      "context": {
+        "merchant": {
+          "id": "m_054",
+          "name": "Bright Smile Clinic",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 83
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 16,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_054*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_055",
+    "input": {
+      "context_id": "m_055",
+      "context": {
+        "merchant": {
+          "id": "m_055",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 55
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 16,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_055*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_056",
+    "input": {
+      "context_id": "m_056",
+      "context": {
+        "merchant": {
+          "id": "m_056",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 101
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_056*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_057",
+    "input": {
+      "context_id": "m_057",
+      "context": {
+        "merchant": {
+          "id": "m_057",
+          "name": "Family Dental Care",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 88
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 16,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_057*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_058",
+    "input": {
+      "context_id": "m_058",
+      "context": {
+        "merchant": {
+          "id": "m_058",
+          "name": "Family Dental Care",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 36
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 16,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_058*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_059",
+    "input": {
+      "context_id": "m_059",
+      "context": {
+        "merchant": {
+          "id": "m_059",
+          "name": "Smile Studio",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 49
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "search spike trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 16,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_059*push_offer*search_spike",
+      "rationale": "search spike + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_060",
+    "input": {
+      "context_id": "m_060",
+      "context": {
+        "merchant": {
+          "id": "m_060",
+          "name": "Dr. Smith Dental",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "search_spike",
+        "count": 14
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "Search spike + active offer - push_offer captures demand",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 16,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Your existing offers can be pushed to capture high-intent demand and boost visits. Your offers can capture this demand. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_060*push_offer*search_spike",
+      "rationale": "search spike - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_061",
+    "input": {
+      "context_id": "m_061",
+      "context": {
+        "merchant": {
+          "id": "m_061",
+          "name": "Bright Smile Clinic",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 30
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 20,
+        "retention_push": 17,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_061*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_062",
+    "input": {
+      "context_id": "m_062",
+      "context": {
+        "merchant": {
+          "id": "m_062",
+          "name": "Family Dental Care",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 148
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 22,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 22,
+        "push_offer": 19,
+        "retention_push": 17,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_062*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_063",
+    "input": {
+      "context_id": "m_063",
+      "context": {
+        "merchant": {
+          "id": "m_063",
+          "name": "Family Dental Care",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 99
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 20,
+        "retention_push": 17,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_063*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_064",
+    "input": {
+      "context_id": "m_064",
+      "context": {
+        "merchant": {
+          "id": "m_064",
+          "name": "Dr. Smith Dental",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 36
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 20,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 20,
+        "push_offer": 19,
+        "retention_push": 17,
+        "improve_reviews": 10,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_064*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_065",
+    "input": {
+      "context_id": "m_065",
+      "context": {
+        "merchant": {
+          "id": "m_065",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 58
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 20,
+        "retention_push": 17,
+        "improve_reviews": 15,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_065*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_066",
+    "input": {
+      "context_id": "m_066",
+      "context": {
+        "merchant": {
+          "id": "m_066",
+          "name": "Dr. Smith Dental",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 120
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 22,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 22,
+        "push_offer": 19,
+        "retention_push": 17,
+        "improve_reviews": 15,
+        "add_photos": 9
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_066*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_067",
+    "input": {
+      "context_id": "m_067",
+      "context": {
+        "merchant": {
+          "id": "m_067",
+          "name": "Family Dental Care",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 83
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 20,
+        "retention_push": 17,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "Family Dental Care, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_067*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_068",
+    "input": {
+      "context_id": "m_068",
+      "context": {
+        "merchant": {
+          "id": "m_068",
+          "name": "Tooth Fairy Dental",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 44
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 20,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 20,
+        "push_offer": 19,
+        "retention_push": 17,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_068*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_069",
+    "input": {
+      "context_id": "m_069",
+      "context": {
+        "merchant": {
+          "id": "m_069",
+          "name": "Dr. Smith Dental",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 16
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 22,
+      "reason": "Footfall dropped + no active offers - push_offer gives fastest recovery",
+      "all_scores": {
+        "push_offer": 22,
+        "run_campaign": 20,
+        "retention_push": 17,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_069*push_offer*footfall_drop",
+      "rationale": "footfall drop + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_070",
+    "input": {
+      "context_id": "m_070",
+      "context": {
+        "merchant": {
+          "id": "m_070",
+          "name": "Tooth Fairy Dental",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "footfall_drop",
+        "count": 122
+      }
+    },
+    "decision": {
+      "selected_action": "run_campaign",
+      "score": 22,
+      "reason": "footfall drop trigger + merchant state - run_campaign maximizes business impact",
+      "all_scores": {
+        "run_campaign": 22,
+        "push_offer": 19,
+        "retention_push": 17,
+        "improve_reviews": 15,
+        "add_photos": 11
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Running targeted campaigns helps maximize reach and attract new customers. Offers can quickly boost walk-ins. Want me to help?",
+      "cta": "Launch campaign?",
+      "send_as": "Vera",
+      "suppression_key": "m_070*run_campaign*footfall_drop",
+      "rationale": "footfall drop - run_campaign to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 3,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 12
+    }
+  },
+  {
+    "context_id": "m_071",
+    "input": {
+      "context_id": "m_071",
+      "context": {
+        "merchant": {
+          "id": "m_071",
+          "name": "Dr. Smith Dental",
+          "rating": 4.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 167
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 20,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_071*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_072",
+    "input": {
+      "context_id": "m_072",
+      "context": {
+        "merchant": {
+          "id": "m_072",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 84
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_072*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_073",
+    "input": {
+      "context_id": "m_073",
+      "context": {
+        "merchant": {
+          "id": "m_073",
+          "name": "Dr. Smith Dental",
+          "rating": 4.2,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 142
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 20,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_073*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_074",
+    "input": {
+      "context_id": "m_074",
+      "context": {
+        "merchant": {
+          "id": "m_074",
+          "name": "Dr. Smith Dental",
+          "rating": 4.2,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 23
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "add_photos": 13,
+        "retention_push": 11,
+        "improve_reviews": 10
+      }
+    },
+    "message": {
+      "message": "Dr. Smith Dental, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_074*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_075",
+    "input": {
+      "context_id": "m_075",
+      "context": {
+        "merchant": {
+          "id": "m_075",
+          "name": "Tooth Fairy Dental",
+          "rating": 4.0,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 162
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_075*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_076",
+    "input": {
+      "context_id": "m_076",
+      "context": {
+        "merchant": {
+          "id": "m_076",
+          "name": "Bright Smile Clinic",
+          "rating": 4.0,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 16
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 18,
+        "improve_reviews": 15,
+        "add_photos": 13,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_076*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_077",
+    "input": {
+      "context_id": "m_077",
+      "context": {
+        "merchant": {
+          "id": "m_077",
+          "name": "Smile Studio",
+          "rating": 3.8,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 155
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Smile Studio, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_077*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_078",
+    "input": {
+      "context_id": "m_078",
+      "context": {
+        "merchant": {
+          "id": "m_078",
+          "name": "Bright Smile Clinic",
+          "rating": 3.8,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 160
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_078*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  },
+  {
+    "context_id": "m_079",
+    "input": {
+      "context_id": "m_079",
+      "context": {
+        "merchant": {
+          "id": "m_079",
+          "name": "Bright Smile Clinic",
+          "rating": 3.5,
+          "offers": []
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 149
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 24,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 24,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Bright Smile Clinic, Since you have no active offers, introducing a time-limited deal can quickly attract more customers. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_079*push_offer*festival",
+      "rationale": "festival + no offers - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 2,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 11
+    }
+  },
+  {
+    "context_id": "m_080",
+    "input": {
+      "context_id": "m_080",
+      "context": {
+        "merchant": {
+          "id": "m_080",
+          "name": "Tooth Fairy Dental",
+          "rating": 3.5,
+          "offers": [
+            {
+              "title": "20% Off"
+            }
+          ]
+        },
+        "category": {
+          "slug": "dentist"
+        }
+      },
+      "trigger": {
+        "type": "festival",
+        "count": 139
+      }
+    },
+    "decision": {
+      "selected_action": "push_offer",
+      "score": 21,
+      "reason": "festival trigger + merchant state - push_offer maximizes business impact",
+      "all_scores": {
+        "push_offer": 21,
+        "run_campaign": 20,
+        "improve_reviews": 15,
+        "add_photos": 15,
+        "retention_push": 11
+      }
+    },
+    "message": {
+      "message": "Tooth Fairy Dental, Your existing offers can be pushed to capture high-intent demand and boost visits. Limited-time offers work well during festivals. Want me to help?",
+      "cta": "Create offer?",
+      "send_as": "Vera",
+      "suppression_key": "m_080*push_offer*festival",
+      "rationale": "festival - push_offer to maximize business impact"
+    },
+    "judge_score": {
+      "relevance": 1,
+      "specificity": 1,
+      "impact": 3,
+      "clarity": 5,
+      "total": 10
+    }
+  }
+]

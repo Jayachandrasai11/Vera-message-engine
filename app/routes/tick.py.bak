@@ -1,0 +1,89 @@
+from fastapi import APIRouter, HTTPException
+from pydantic import BaseModel
+
+from ..store.memory import (
+    get_context, save_last_action, is_recently_sent, get_last_interaction,
+    PIVOT_ACTIONS
+)
+from ..engine.decision import decide_action
+from ..engine.composer import compose_message
+from ..engine.validation import validate_input, build_sanitized_structure
+
+router = APIRouter()
+
+
+class TickRequest(BaseModel):
+    context_id: str
+    trigger: dict
+
+
+@router.post("/tick")
+def tick(request: TickRequest):
+    stored = get_context(request.context_id)
+    if not stored:
+        raise HTTPException(status_code=404, detail="Context not found")
+    
+    try:
+        validate_input({}, request.trigger, request.context_id)
+    except Exception as e:
+        return {"error": "invalid_input", "reason": str(e)}
+    
+    trigger_type = request.trigger.get("type", "unknown") or "unknown"
+    
+    if trigger_type == "unknown":
+        return get_fallback_response()
+    
+    if DuplicateChecker.should_suppress(request.context_id, trigger_type):
+        return get_duplicate_response()
+    
+    payload = stored.get("payload", {})
+    merchant = payload.get("merchant", {})
+    category = payload.get("category", {})
+    
+    normalized = build_sanitized_structure({"merchant": merchant, "category": category}, request.trigger)
+    normalized_ctx = normalized["normalized"]["context"]
+    normalized_trig = normalized["normalized"]["trigger"]
+    signals = normalized["normalized"]["signals"]
+    
+    context = {
+        "merchant": {
+            "id": normalized_ctx["merchant_id"],
+            "name": normalized_ctx["name"],
+            "rating": normalized_ctx["rating"],
+            "offers": normalized_ctx["offers"]
+        },
+        "category": {"slug": normalized_ctx["category"]}
+    }
+    
+    decision = decide_action(context, normalized_trig)
+    action = decision.get("action", "unknown")
+    
+    last_interaction = get_last_interaction(request.context_id)
+    if last_interaction and is_recently_sent(request.context_id):
+        last_action = last_interaction.get("action")
+        user_status = last_interaction.get("user_status", "pending")
+        
+        if last_action == action:
+            if user_status == "rejected":
+                action = PIVOT_ACTIONS.get(action, "run_campaign")
+            else:
+                return {
+                    "message": None,
+                    "cta": None,
+                    "send_as": "Vera",
+                    "suppression_key": "skip_repeat",
+                    "rationale": "Recently sent similar message — avoiding repetition"
+                }
+    
+    msg_result = compose_message(
+        category=category.get("slug", ""),
+        merchant=merchant,
+        trigger=normalized_trig,
+        action=action,
+        stored_context=stored,
+        context_id=request.context_id
+    )
+    
+    save_last_action(request.context_id, action, request.trigger, msg_result.get("message"))
+    
+    return msg_result

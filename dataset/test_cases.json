@@ -1,0 +1,1602 @@
+[
+  {
+    "context_id": "m_001",
+    "context": {
+      "merchant": {
+        "id": "m_001",
+        "name": "FitZone",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 172
+    }
+  },
+  {
+    "context_id": "m_002",
+    "context": {
+      "merchant": {
+        "id": "m_002",
+        "name": "PowerHouse Gym",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 194
+    }
+  },
+  {
+    "context_id": "m_003",
+    "context": {
+      "merchant": {
+        "id": "m_003",
+        "name": "Elite Fitness",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 107
+    }
+  },
+  {
+    "context_id": "m_004",
+    "context": {
+      "merchant": {
+        "id": "m_004",
+        "name": "CrossFit Center",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 112
+    }
+  },
+  {
+    "context_id": "m_005",
+    "context": {
+      "merchant": {
+        "id": "m_005",
+        "name": "CrossFit Center",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 50
+    }
+  },
+  {
+    "context_id": "m_006",
+    "context": {
+      "merchant": {
+        "id": "m_006",
+        "name": "CrossFit Center",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 70
+    }
+  },
+  {
+    "context_id": "m_007",
+    "context": {
+      "merchant": {
+        "id": "m_007",
+        "name": "CrossFit Center",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 116
+    }
+  },
+  {
+    "context_id": "m_008",
+    "context": {
+      "merchant": {
+        "id": "m_008",
+        "name": "CrossFit Center",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 173
+    }
+  },
+  {
+    "context_id": "m_009",
+    "context": {
+      "merchant": {
+        "id": "m_009",
+        "name": "CrossFit Center",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 19
+    }
+  },
+  {
+    "context_id": "m_010",
+    "context": {
+      "merchant": {
+        "id": "m_010",
+        "name": "FitZone",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 70
+    }
+  },
+  {
+    "context_id": "m_011",
+    "context": {
+      "merchant": {
+        "id": "m_011",
+        "name": "Iron Gym",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 191
+    }
+  },
+  {
+    "context_id": "m_012",
+    "context": {
+      "merchant": {
+        "id": "m_012",
+        "name": "FitZone",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 68
+    }
+  },
+  {
+    "context_id": "m_013",
+    "context": {
+      "merchant": {
+        "id": "m_013",
+        "name": "CrossFit Center",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 196
+    }
+  },
+  {
+    "context_id": "m_014",
+    "context": {
+      "merchant": {
+        "id": "m_014",
+        "name": "Iron Gym",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 153
+    }
+  },
+  {
+    "context_id": "m_015",
+    "context": {
+      "merchant": {
+        "id": "m_015",
+        "name": "Iron Gym",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 88
+    }
+  },
+  {
+    "context_id": "m_016",
+    "context": {
+      "merchant": {
+        "id": "m_016",
+        "name": "PowerHouse Gym",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 183
+    }
+  },
+  {
+    "context_id": "m_017",
+    "context": {
+      "merchant": {
+        "id": "m_017",
+        "name": "Elite Fitness",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 85
+    }
+  },
+  {
+    "context_id": "m_018",
+    "context": {
+      "merchant": {
+        "id": "m_018",
+        "name": "FitZone",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 53
+    }
+  },
+  {
+    "context_id": "m_019",
+    "context": {
+      "merchant": {
+        "id": "m_019",
+        "name": "CrossFit Center",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 60
+    }
+  },
+  {
+    "context_id": "m_020",
+    "context": {
+      "merchant": {
+        "id": "m_020",
+        "name": "CrossFit Center",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 184
+    }
+  },
+  {
+    "context_id": "m_021",
+    "context": {
+      "merchant": {
+        "id": "m_021",
+        "name": "CrossFit Center",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 23
+    }
+  },
+  {
+    "context_id": "m_022",
+    "context": {
+      "merchant": {
+        "id": "m_022",
+        "name": "CrossFit Center",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 81
+    }
+  },
+  {
+    "context_id": "m_023",
+    "context": {
+      "merchant": {
+        "id": "m_023",
+        "name": "FitZone",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 96
+    }
+  },
+  {
+    "context_id": "m_024",
+    "context": {
+      "merchant": {
+        "id": "m_024",
+        "name": "FitZone",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 115
+    }
+  },
+  {
+    "context_id": "m_025",
+    "context": {
+      "merchant": {
+        "id": "m_025",
+        "name": "Elite Fitness",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 81
+    }
+  },
+  {
+    "context_id": "m_026",
+    "context": {
+      "merchant": {
+        "id": "m_026",
+        "name": "FitZone",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 162
+    }
+  },
+  {
+    "context_id": "m_027",
+    "context": {
+      "merchant": {
+        "id": "m_027",
+        "name": "CrossFit Center",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 29
+    }
+  },
+  {
+    "context_id": "m_028",
+    "context": {
+      "merchant": {
+        "id": "m_028",
+        "name": "CrossFit Center",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 97
+    }
+  },
+  {
+    "context_id": "m_029",
+    "context": {
+      "merchant": {
+        "id": "m_029",
+        "name": "FitZone",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 107
+    }
+  },
+  {
+    "context_id": "m_030",
+    "context": {
+      "merchant": {
+        "id": "m_030",
+        "name": "Elite Fitness",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 183
+    }
+  },
+  {
+    "context_id": "m_031",
+    "context": {
+      "merchant": {
+        "id": "m_031",
+        "name": "PowerHouse Gym",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 160
+    }
+  },
+  {
+    "context_id": "m_032",
+    "context": {
+      "merchant": {
+        "id": "m_032",
+        "name": "CrossFit Center",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 30
+    }
+  },
+  {
+    "context_id": "m_033",
+    "context": {
+      "merchant": {
+        "id": "m_033",
+        "name": "CrossFit Center",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 181
+    }
+  },
+  {
+    "context_id": "m_034",
+    "context": {
+      "merchant": {
+        "id": "m_034",
+        "name": "Elite Fitness",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 12
+    }
+  },
+  {
+    "context_id": "m_035",
+    "context": {
+      "merchant": {
+        "id": "m_035",
+        "name": "Iron Gym",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 143
+    }
+  },
+  {
+    "context_id": "m_036",
+    "context": {
+      "merchant": {
+        "id": "m_036",
+        "name": "Elite Fitness",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 93
+    }
+  },
+  {
+    "context_id": "m_037",
+    "context": {
+      "merchant": {
+        "id": "m_037",
+        "name": "FitZone",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 45
+    }
+  },
+  {
+    "context_id": "m_038",
+    "context": {
+      "merchant": {
+        "id": "m_038",
+        "name": "Elite Fitness",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 74
+    }
+  },
+  {
+    "context_id": "m_039",
+    "context": {
+      "merchant": {
+        "id": "m_039",
+        "name": "PowerHouse Gym",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 23
+    }
+  },
+  {
+    "context_id": "m_040",
+    "context": {
+      "merchant": {
+        "id": "m_040",
+        "name": "CrossFit Center",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "compliance",
+      "count": 75
+    }
+  },
+  {
+    "context_id": "m_041",
+    "context": {
+      "merchant": {
+        "id": "m_041",
+        "name": "Iron Gym",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 33
+    }
+  },
+  {
+    "context_id": "m_042",
+    "context": {
+      "merchant": {
+        "id": "m_042",
+        "name": "PowerHouse Gym",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 98
+    }
+  },
+  {
+    "context_id": "m_043",
+    "context": {
+      "merchant": {
+        "id": "m_043",
+        "name": "Elite Fitness",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 116
+    }
+  },
+  {
+    "context_id": "m_044",
+    "context": {
+      "merchant": {
+        "id": "m_044",
+        "name": "Iron Gym",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 35
+    }
+  },
+  {
+    "context_id": "m_045",
+    "context": {
+      "merchant": {
+        "id": "m_045",
+        "name": "CrossFit Center",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 39
+    }
+  },
+  {
+    "context_id": "m_046",
+    "context": {
+      "merchant": {
+        "id": "m_046",
+        "name": "CrossFit Center",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 148
+    }
+  },
+  {
+    "context_id": "m_047",
+    "context": {
+      "merchant": {
+        "id": "m_047",
+        "name": "CrossFit Center",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 27
+    }
+  },
+  {
+    "context_id": "m_048",
+    "context": {
+      "merchant": {
+        "id": "m_048",
+        "name": "Iron Gym",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 54
+    }
+  },
+  {
+    "context_id": "m_049",
+    "context": {
+      "merchant": {
+        "id": "m_049",
+        "name": "CrossFit Center",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 73
+    }
+  },
+  {
+    "context_id": "m_050",
+    "context": {
+      "merchant": {
+        "id": "m_050",
+        "name": "CrossFit Center",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "gym"
+      }
+    },
+    "trigger": {
+      "type": "research",
+      "count": 30
+    }
+  },
+  {
+    "context_id": "m_051",
+    "context": {
+      "merchant": {
+        "id": "m_051",
+        "name": "Dr. Smith Dental",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 150
+    }
+  },
+  {
+    "context_id": "m_052",
+    "context": {
+      "merchant": {
+        "id": "m_052",
+        "name": "Bright Smile Clinic",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 186
+    }
+  },
+  {
+    "context_id": "m_053",
+    "context": {
+      "merchant": {
+        "id": "m_053",
+        "name": "Tooth Fairy Dental",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 18
+    }
+  },
+  {
+    "context_id": "m_054",
+    "context": {
+      "merchant": {
+        "id": "m_054",
+        "name": "Bright Smile Clinic",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 43
+    }
+  },
+  {
+    "context_id": "m_055",
+    "context": {
+      "merchant": {
+        "id": "m_055",
+        "name": "Family Dental Care",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 81
+    }
+  },
+  {
+    "context_id": "m_056",
+    "context": {
+      "merchant": {
+        "id": "m_056",
+        "name": "Smile Studio",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 75
+    }
+  },
+  {
+    "context_id": "m_057",
+    "context": {
+      "merchant": {
+        "id": "m_057",
+        "name": "Family Dental Care",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 26
+    }
+  },
+  {
+    "context_id": "m_058",
+    "context": {
+      "merchant": {
+        "id": "m_058",
+        "name": "Tooth Fairy Dental",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 182
+    }
+  },
+  {
+    "context_id": "m_059",
+    "context": {
+      "merchant": {
+        "id": "m_059",
+        "name": "Bright Smile Clinic",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 156
+    }
+  },
+  {
+    "context_id": "m_060",
+    "context": {
+      "merchant": {
+        "id": "m_060",
+        "name": "Bright Smile Clinic",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "search_spike",
+      "count": 29
+    }
+  },
+  {
+    "context_id": "m_061",
+    "context": {
+      "merchant": {
+        "id": "m_061",
+        "name": "Family Dental Care",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 23
+    }
+  },
+  {
+    "context_id": "m_062",
+    "context": {
+      "merchant": {
+        "id": "m_062",
+        "name": "Family Dental Care",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 83
+    }
+  },
+  {
+    "context_id": "m_063",
+    "context": {
+      "merchant": {
+        "id": "m_063",
+        "name": "Smile Studio",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 137
+    }
+  },
+  {
+    "context_id": "m_064",
+    "context": {
+      "merchant": {
+        "id": "m_064",
+        "name": "Dr. Smith Dental",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 58
+    }
+  },
+  {
+    "context_id": "m_065",
+    "context": {
+      "merchant": {
+        "id": "m_065",
+        "name": "Tooth Fairy Dental",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 64
+    }
+  },
+  {
+    "context_id": "m_066",
+    "context": {
+      "merchant": {
+        "id": "m_066",
+        "name": "Tooth Fairy Dental",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 138
+    }
+  },
+  {
+    "context_id": "m_067",
+    "context": {
+      "merchant": {
+        "id": "m_067",
+        "name": "Dr. Smith Dental",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 28
+    }
+  },
+  {
+    "context_id": "m_068",
+    "context": {
+      "merchant": {
+        "id": "m_068",
+        "name": "Smile Studio",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 191
+    }
+  },
+  {
+    "context_id": "m_069",
+    "context": {
+      "merchant": {
+        "id": "m_069",
+        "name": "Family Dental Care",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 84
+    }
+  },
+  {
+    "context_id": "m_070",
+    "context": {
+      "merchant": {
+        "id": "m_070",
+        "name": "Family Dental Care",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "footfall_drop",
+      "count": 123
+    }
+  },
+  {
+    "context_id": "m_071",
+    "context": {
+      "merchant": {
+        "id": "m_071",
+        "name": "Smile Studio",
+        "rating": 4.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 185
+    }
+  },
+  {
+    "context_id": "m_072",
+    "context": {
+      "merchant": {
+        "id": "m_072",
+        "name": "Smile Studio",
+        "rating": 4.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 81
+    }
+  },
+  {
+    "context_id": "m_073",
+    "context": {
+      "merchant": {
+        "id": "m_073",
+        "name": "Bright Smile Clinic",
+        "rating": 4.2,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 170
+    }
+  },
+  {
+    "context_id": "m_074",
+    "context": {
+      "merchant": {
+        "id": "m_074",
+        "name": "Family Dental Care",
+        "rating": 4.2,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 151
+    }
+  },
+  {
+    "context_id": "m_075",
+    "context": {
+      "merchant": {
+        "id": "m_075",
+        "name": "Bright Smile Clinic",
+        "rating": 4.0,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 167
+    }
+  },
+  {
+    "context_id": "m_076",
+    "context": {
+      "merchant": {
+        "id": "m_076",
+        "name": "Tooth Fairy Dental",
+        "rating": 4.0,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 187
+    }
+  },
+  {
+    "context_id": "m_077",
+    "context": {
+      "merchant": {
+        "id": "m_077",
+        "name": "Tooth Fairy Dental",
+        "rating": 3.8,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 136
+    }
+  },
+  {
+    "context_id": "m_078",
+    "context": {
+      "merchant": {
+        "id": "m_078",
+        "name": "Tooth Fairy Dental",
+        "rating": 3.8,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 58
+    }
+  },
+  {
+    "context_id": "m_079",
+    "context": {
+      "merchant": {
+        "id": "m_079",
+        "name": "Smile Studio",
+        "rating": 3.5,
+        "offers": []
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 125
+    }
+  },
+  {
+    "context_id": "m_080",
+    "context": {
+      "merchant": {
+        "id": "m_080",
+        "name": "Dr. Smith Dental",
+        "rating": 3.5,
+        "offers": [
+          {
+            "title": "20% Off"
+          }
+        ]
+      },
+      "category": {
+        "slug": "dentist"
+      }
+    },
+    "trigger": {
+      "type": "festival",
+      "count": 94
+    }
+  }
+]
