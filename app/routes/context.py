@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+from typing import Optional
 from datetime import datetime
 
 from ..store.memory import store_context, get_context
@@ -18,7 +19,7 @@ class ContextPayload(BaseModel):
     context_id: str
     version: int
     payload: dict
-    delivered_at: str
+    delivered_at: Optional[str] = None
 
 
 @router.post("/context")
