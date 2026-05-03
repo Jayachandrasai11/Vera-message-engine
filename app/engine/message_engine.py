@@ -27,6 +27,12 @@ CATEGORY_CONTEXT = {
         "peer_stat": "4.2%",
         "default_research": "Recent adherence studies show that proactive refill reminders can improve chronic medication compliance by ~18%."
     },
+    "gyms": {
+        "emoji": "🏋️",
+        "taboos": [r"best", r"guaranteed", r"steroid", r"fast"],
+        "peer_stat": "3.5%",
+        "default_research": "Fitness industry benchmarks show that 3-turn engagement sequences for dormant members can recover ~12% of lost churn."
+    },
     "default": {
         "emoji": "✨",
         "taboos": [],
@@ -42,6 +48,7 @@ SITUATION_EMOJIS = {
     "customer_lapsed": "👋",
     "research_digest": "💡",
     "planning_intent": "🎉",
+    "perf_dip": "📉",
     "default": "✨"
 }
 
