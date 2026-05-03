@@ -1,4 +1,6 @@
 TRIGGER_INTENT_MAP = {
+    "search_spike": "share_research_insight",
+    "perf_spike": "share_research_insight",
     "recall_due": "nudge_recall_action",
     "research": "share_research_insight",
     "research_digest": "share_research_insight",
@@ -12,7 +14,6 @@ TRIGGER_INTENT_MAP = {
     "festival": "provide_execution_plan",
     "festival_upcoming": "provide_execution_plan",
     "perf_dip": "advise_business_strategy",
-    "perf_spike": "advise_business_strategy",
 }
 
 PRIORITY_MAP = {
@@ -29,7 +30,8 @@ TARGET_MAP = {
     "customer_lapsed": "customer",
     "research_digest": "merchant",
     "seasonal_dip": "merchant",
-    "planning_intent": "merchant"
+    "planning_intent": "merchant",
+    "search_spike": "merchant"
 }
 
 
@@ -52,6 +54,9 @@ def check_conditions(trigger_type: str, normalized: dict) -> tuple[bool, str]:
             return True, "customers overdue for checkups, opportunity to drive repeat visits"
         # Fallback to merchant-level nudge when customer missing or insufficient data
         return True, "patients likely due, opportunity to drive repeat visits with recall reminder"
+
+    if trigger_type in ["search_spike", "research_digest", "research"]:
+        return True, "market intelligence available to drive growth"
 
     if trigger_type == "customer_lapsed":
         customer_exists = customer and customer.get("id")
