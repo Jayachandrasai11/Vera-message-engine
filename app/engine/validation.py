@@ -12,10 +12,10 @@ def safe_join(parts):
 
 def validate_input(context: dict, trigger: dict, context_id: str = None) -> dict:
     if not context and not context_id:
-        raise ValidationError("context required or context_id must exist")
+        return {"valid": False, "reason": "context required or context_id must exist"}
     
     if not trigger or not (trigger.get("type") or trigger.get("kind")):
-        raise ValidationError("trigger.type or trigger.kind is required")
+        return {"valid": False, "reason": "trigger.type or trigger.kind is required"}
     
     return {"valid": True}
 

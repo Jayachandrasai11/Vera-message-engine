@@ -21,6 +21,12 @@ CATEGORY_CONTEXT = {
         "peer_stat": "3.8%",
         "default_research": "Beauty Journal's 2026 Trend Report shows that salons with active 'Express Services' see a 22% increase in weekday bookings."
     },
+    "pharmacies": {
+        "emoji": "💊",
+        "taboos": [r"prescribe", r"substitute", r"cheap", r"cure"],
+        "peer_stat": "4.2%",
+        "default_research": "Recent adherence studies show that proactive refill reminders can improve chronic medication compliance by ~18%."
+    },
     "default": {
         "emoji": "✨",
         "taboos": [],
